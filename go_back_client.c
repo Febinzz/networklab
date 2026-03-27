@@ -19,6 +19,7 @@ void sendData(int sockfd, int totalFrames, int windowSize)
     timeout.tv_sec = 3;   // 3 second timeout
     timeout.tv_usec = 0;
 
+    
     setsockopt(sockfd, SOL_SOCKET, SO_RCVTIMEO,
                (const char *)&timeout, sizeof(timeout));
 

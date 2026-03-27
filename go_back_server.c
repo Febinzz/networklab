@@ -66,6 +66,7 @@ int main()
 
             expected++;
         } 
+        
         else 
         {
             printf("Frame %d Discarded (Expected %d)\n", frame, expected);

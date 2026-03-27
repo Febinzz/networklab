@@ -44,5 +44,6 @@ return -1;
 printf("Server's response: %s\n",server_message);
 // Close the socket:
 close(socket_desc);
+
 return 0;
 }

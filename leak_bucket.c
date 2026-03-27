@@ -78,6 +78,7 @@ int main()
         }
     }
 
+    
     printf("\n\n=========== SIMULATION COMPLETED ===========\n");
     return 0;
 }

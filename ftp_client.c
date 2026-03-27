@@ -24,6 +24,7 @@ if(connect(clientsock,(struct sockaddr*)&serveraddr,sizeof(serveraddr))<0)
 printf("\nError:Cannot connect...");
 exit(0);
 }
+
 printf("Enter the name of the file : ");
 scanf("%s",filename);
 length=strlen(filename);

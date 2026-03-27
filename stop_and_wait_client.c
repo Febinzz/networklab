@@ -79,6 +79,7 @@ printf("\nServer donot acknowledged\nResending....");
 
 goto x;
 }
+
 }
 close(socket_desc);
 return 0;

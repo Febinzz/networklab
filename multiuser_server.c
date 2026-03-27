@@ -10,6 +10,7 @@
 #include <sys/select.h>
 #define PORT 5000
 #define BUFSIZE 1024
+
 void send_to_all(int j, int i, int sockfd, int nbytes_recvd, char *recv_buf, fd_set *master)
 {
 if (FD_ISSET(j, master)){
