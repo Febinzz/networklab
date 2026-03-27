@@ -40,10 +40,6 @@ void func(int sockfd, int totalFrames, int windowSize)
                 base++;
         }
 
-<<<<<<< HEAD
-        
-=======
->>>>>>> 5a40aa9a550daa5b14da0e1e6e5f1c4044df0b9f
         for (int i = base; i < next; i++)
         {
             if (!acked[i] && difftime(time(NULL), send_time[i]) >= TIMEOUT)

@@ -78,10 +78,6 @@ int main()
         }
     }
 
-<<<<<<< HEAD
-    
-=======
->>>>>>> 5a40aa9a550daa5b14da0e1e6e5f1c4044df0b9f
     printf("\n\n=========== SIMULATION COMPLETED ===========\n");
     return 0;
 }

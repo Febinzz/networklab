@@ -108,8 +108,5 @@ int main(int argc, char *argv[])
     close(sockfd);
 
     return 0;
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 5a40aa9a550daa5b14da0e1e6e5f1c4044df0b9f
